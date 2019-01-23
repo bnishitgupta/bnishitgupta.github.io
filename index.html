@@ -9,7 +9,7 @@
 body {font-family: Verdana, sans-serif; font-size:0.8em;background-color: #f1f1f1;}
  section,figure
 {border:1px solid rgb(0, 0, 0); margin:5px; padding:8px;}
-footer{background-color: #C5CBE3; margin:5px; padding:1px;}
+footer{background-color: rgb(255, 124, 17); margin:5px; padding:1px;color: white;}
 nav ul {margin:0; padding:0;}
 nav
 /* { margin:0px; padding:8px; background-color: black; */
@@ -78,33 +78,45 @@ img{border: 1px solid #ddd;
 
 .html {width: 90%; background-color: rgb(64, 224, 216);}
 .css {width: 70%; background-color: rgb(64, 224, 216);}
-.js {width: 65%; background-color: rgb(64, 224, 216);}
+.js {width: 60%; background-color: rgb(64, 224, 216);}
 .c {width: 90%; background-color: rgb(64, 224, 216);}
 .java {width: 75%; background-color: rgb(64, 224, 216);}
-
+.android {width: 65%; background-color: rgb(64, 224, 216);}
 </style>
-</style>
+<!-- <script>
+    function myMap() {
+var mapProp= {
+  center:new google.maps.LatLng(51.508742,-0.120850),
+  zoom:5,
+};
+var map = new google.maps.Map(document.getElementById("googleMap"),mapProp);
+}
+</script>
+<script src="https://maps.googleapis.com/maps/api/js?key=YOUR_KEY&callback=myMap"></script> -->
 </head>
 
 <body>
 
-    <nav>
+        <header style=background-image:url("images/2.jpg") id="home">
+            <pre>
+           <center> 
+            <h1 style ="font-size:90px;color: white;">NISHIT GUPTA</h1>
+            <h1 style ="font-size:20px;color:black;">@Cognizant Technology Solutions</h1></center>
+            </pre>
+        </header>
+
+        <nav>
             <ul>
                 <li><a href="#home">HOME</a></li>
                 <li><a href="#about">ABOUT</a></li>
                 <li><a href="#knowledge">KNOWLEDGE</a></li>
                 <li><a href="#education">EDUCATION</a></li>
+                <li><a href="#projects">PROJECTS</a></li>
                 <li><a href="#contact">CONTACT</a></li>
             </ul>
     </nav>
 
-	<header style=background-image:url("images/2.jpg") id="home">
-        <pre>
-       <center> 
-        <h1 style ="font-size:90px;color: white;">NISHIT GUPTA</h1>
-        <h1 style ="font-size:20px;color:black;">@Cognizant Technology Solutions</h1></center>
-        </pre>
-	</header>
+	
 
 	
 
@@ -116,25 +128,31 @@ img{border: 1px solid #ddd;
 
 		<article>
                 <div style="background-color:#E3E2DF; padding: 30px; border-radius:1%;">
-			<table border="0">
+			<center><table border="0">
                 <tr>
                     <td>
                         <img src="images/1.jpg">
                     </td>
                     <td>
                         <b><p style="font-size:25px; font-family: Verdana, Geneva, Tahoma, sans-serif">Hi!</p></b>
-                        <!-- <pre class="info"> -->
-I'm an Intern working in Cognizant Technology Solutions,Pune. I'm a quick learner who has
-learned technologies such as C,JAVA,HTML,CSS,Javascript,Flask,Android.I'm fueled by my passion for 
-learning and understanding the various concepts in Web Designing. I regularly do workout and 
+                         <pre class="info"> 
+I'm an Intern working in Cognizant 
+Technology Solutions,Pune.
+I'm a quick learner who has
+learned technologies such as
+C,JAVA,HTML,CSS,Javascript,Flask,Android.
+I'm fueled by my passion for 
+learning and understanding the various concepts 
+in Web Designing. I regularly do workout and 
 I like listening music, playing sports.
+</pre>
 
-
-                        <!-- </pre> -->
+                     
                     </td>
 
                 </tr>
             </table>
+        </center>
             </div>
         </article>
         
@@ -154,7 +172,7 @@ I like listening music, playing sports.
 
             <p>JavaScript</p>
                 <div class="container">
-                <div class="skills js">65%</div>
+                <div class="skills js">60%</div>
                 </div>
 
             <p>C</p>
@@ -164,6 +182,10 @@ I like listening music, playing sports.
             <p>JAVA</p>
                 <div class="container">
                 <div class="skills java">75%</div>
+                </div>
+            <p>Android</p>
+                <div class="container">
+                <div class="skills android">65%</div>
                 </div>
                 </div>
         </article>
@@ -186,6 +208,43 @@ I like listening music, playing sports.
                     <h3>Higher Secondary-State Board - 94.8%</h3>
                     <span>2013 - 2015</span>
                     <p>Sri Chaitanya Jr. College,Hyderabad</p>
+                </div>
+            </li>
+        </div>
+        </article>
+
+        <center><img src="images/pro.png" class="grad"><h1 id="projects" style="color:#da7b93;">Projects</h1></center>
+        <article >
+            <div style="background-color:#E3E2DF; padding: 30px; border-radius:1%;">
+			
+            <!-- <p>under construction.</p> -->
+            <li>
+                
+                <div class="btech" style="background-color:whitesmoke; padding: 30px;">
+                    <h3>Cane management system (HTML, java, JSP)</h3>
+                    <span>worked as frontend developer for the website.</span>
+                   
+                </div>
+            </li>
+            <li>
+                <div class="highersecondary" style="background-color:whitesmoke; padding: 30px;">
+                    <h3>Predicting the sales using machine learning</h3>
+                    <span>Worked as front-end developer(HTML/CSS) and flask.</span>
+                    
+                </div>
+            </li>
+            <li>
+                    <div class="highersecondary" style="background-color:whitesmoke; padding: 30px;">
+                        <h3>Marketing project based on mobile applications</h3>
+                        <span>Worked on Data analytics part.</span>
+                        
+                    </div>
+            </li>
+            <li>
+                <div class="highersecondary" style="background-color:whitesmoke; padding: 30px;">
+                <h3>Machine learning on Income Dataset</h3>
+                <span>Preprocessed the Dataset using MATLAB and MS Excel.</span>
+                            
                 </div>
             </li>
         </div>
@@ -214,6 +273,11 @@ I like listening music, playing sports.
                     <td>
                         Hyderabad,Telangana,India
                     </td>
+                    <!-- <td rowspan="3">
+                            <div id="googleMap" style="width:100%;height:400px;">
+                            </div>
+
+                    </td> -->
                 </tr>
                 <tr>
                     <td>
