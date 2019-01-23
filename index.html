@@ -4,14 +4,31 @@
 <title>Profile | Nishit Battula</title>
 <!-- <link rel="stylesheet" type="text/css" href="assets/css/animate.css"> -->
 <link rel="stylesheet" type="text/css" href="assets/css/responsive.css">
+<!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
 <style>
-body {font-family: Verdana, sans-serif; font-size:0.8em;background-color: cornsilk;}
-nav, section,article,figure
-{border:1px solid green; margin:5px; padding:8px;}
-footer{border:1px solid green; margin:5px; padding:1px;}
+body {font-family: Verdana, sans-serif; font-size:0.8em;background-color: #f1f1f1;}
+ section,figure
+{border:1px solid rgb(0, 0, 0); margin:5px; padding:8px;}
+footer{background-color: #C5CBE3; margin:5px; padding:1px;}
 nav ul {margin:0; padding:0;}
-header{height: 350px;}
+nav
+/* { margin:0px; padding:8px; background-color: black; */
+    {overflow: hidden;
+  background-color: #333;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+header{height: 370px;background-size:100% ;}
+article
+{margin:5px; padding:8px;}
+
 nav ul li {display:inline; margin:5px;}
+/* .sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+} */
 header{ padding:1px;background-color: "#455a64";}
 
 img{border: 1px solid #ddd;
@@ -28,8 +45,8 @@ img{border: 1px solid #ddd;
         font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     }
     a:link, a:visited {
-    background-color: cornsilk;
-    color: black;
+    background-color:#333;
+    color: white;
     padding: 14px 25px;
     text-align: center;
     display: inline-block;
@@ -42,7 +59,7 @@ img{border: 1px solid #ddd;
 
 .container {
   width: 100%;
-  background-color: #ddd;
+  background-color: whitesmoke;
 }
 
 .skills {
@@ -54,7 +71,6 @@ img{border: 1px solid #ddd;
 .html {width: 90%; background-color: rgb(64, 224, 216);}
 .css {width: 70%; background-color: rgb(64, 224, 216);}
 .js {width: 65%; background-color: rgb(64, 224, 216);}
-/* .php {width: 60%; background-color: rgb(64, 224, 216);} */
 .c {width: 90%; background-color: rgb(64, 224, 216);}
 .java {width: 75%; background-color: rgb(64, 224, 216);}
 
@@ -74,11 +90,10 @@ img{border: 1px solid #ddd;
             </ul>
     </nav>
 
-	<header style=background-image:url("images/img1.png") id="home">
+	<header style=background-image:url("images/2.jpg") id="home">
         <pre>
        <center> 
         <h1 style ="font-size:90px;color: white;">NISHIT GUPTA</h1>
-        <!-- <h2 class="head-title wow fadeInUp animated" data-wow-delay="0.4s" style="visibility: visible;-webkit-animation-delay: 0.4s; -moz-animation-delay: 0.4s; animation-delay: 0.4s;">Nishit Gupta</h2> -->
         <h1 style ="font-size:20px;color:black;">@Cognizant Technology Solutions</h1></center>
         </pre>
 	</header>
@@ -87,25 +102,19 @@ img{border: 1px solid #ddd;
 
 	<section>
 
-		<h1 id = "about">My Profile</h1>
+		<center><h1 id = "about" style="color:#da7b93;">My Profile</h1></center>
 
-		<!-- <article style=background-color:rosybrown>
-        <pre>
-        <centre> <h1>Hi This is</h1>
-                 <h1 style = "font-size:90px;color: white;">NISHIT GUPTA</h1>
-                 <h1>Full Stack Developer</h1>
-                 <h1>@Cognizant Technology Solutions</h1></centre>
-        </pre>
-		</article> -->
+	
 
 		<article>
+                <div style="background-color:#E3E2DF; padding: 30px; border-radius:1%;">
 			<table border="0">
                 <tr>
                     <td>
                         <img src="images/1.jpg">
                     </td>
                     <td>
-                        <b><p style="font-size:25px;">Hi!</p></b>
+                        <b><p style="font-size:25px; font-family: Verdana, Geneva, Tahoma, sans-serif">Hi!</p></b>
                         <!-- <pre class="info"> -->
 I'm an Intern working in Cognizant Technology Solutions,Pune. I'm a quick learner who has
 learned technologies such as C,JAVA,HTML,CSS,Javascript,Flask,Android.I'm fueled by my passion for 
@@ -118,11 +127,12 @@ I like listening music, playing sports.
 
                 </tr>
             </table>
+            </div>
         </article>
         
-        <h2 id="knowledge">knowledge</h2>
+        <center><h1 id="knowledge" style="color:#da7b93;">knowledge</h1></center>
 		<article>
-			
+            <div style="background-color:#E3E2DF; padding: 30px; border-radius:1%;">
             <!-- <p>under construction</p> -->
             <p>HTML</p>
                 <div class="container">
@@ -147,33 +157,35 @@ I like listening music, playing sports.
                 <div class="container">
                 <div class="skills java">75%</div>
                 </div>
+                </div>
         </article>
         
-        <h2 id="education">Education</h2>
-        <article>
+        <center><h1 id="education" style="color:#da7b93;">Education</h1></center>
+        <article >
+            <div style="background-color:#E3E2DF; padding: 30px; border-radius:1%;">
 			
             <!-- <p>under construction.</p> -->
             <li>
                 
-                <div class="btech">
+                <div class="btech" style="background-color:whitesmoke; padding: 30px;">
                     <h3>B.Tech in Shiv Nadar University</h3>
                     <span>2015 - 2019</span>
                     <p>Shiv Nadar University,Greater Noida.</p>
                 </div>
             </li>
             <li>
-                <div class="highersecondary">
+                <div class="highersecondary" style="background-color:whitesmoke; padding: 30px;">
                     <h3>Higher Secondary-State Board - 94.8%</h3>
                     <span>2013 - 2015</span>
                     <p>Sri Chaitanya Jr. College,Hyderabad</p>
                 </div>
             </li>
-            
+        </div>
         </article>
         
-        <h2 id="contact">Contact</h2>
+       <center> <h1 id="contact" style="color:#da7b93;">Contact</h1></center>
         <article>
-			
+                <div style="background-color:#E3E2DF; padding: 30px; border-radius:1%;">
             <!-- <p>under construction.</p> -->
             <div>
             <p>Hyderabad,Telangana,India</p>
@@ -186,13 +198,13 @@ I like listening music, playing sports.
                     +91 70420 22669
                 </p>
             </div>
-
+            </div>
 
 		</article>
 
 	</section>
 
-	<footer>
+	<footer style="font size=10px;">
 		<p>&copy; Designed and developed by Nishit Gupta Battula.</p>
 	</footer>
 
