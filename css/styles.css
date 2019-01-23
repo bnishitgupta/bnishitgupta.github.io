@@ -1,0 +1,55 @@
+header{
+    background-color: rgb(252, 202, 137);
+
+}
+#div3{
+    background-color: beige;
+   
+}
+img {
+    border: 1px solid #ddd;
+    border-radius: 50%;
+    padding: 5px;
+    width: 150px;
+    height: 170px;
+    align-content: center;
+  }
+  .pic{
+      align-content: center;
+  }
+  pre{
+      font-size: 30px;
+
+  }
+  a:link, a:visited {
+    background-color: #f44336;
+    color: black;
+    padding: 14px 25px;
+    text-align: center;
+    display: inline-block;
+    text-decoration: none;
+  }
+  
+  #div5{
+      background-color: aquamarine;
+  }
+  #div7{
+    background-color: rgb(187, 245, 187);
+}
+.pre1{
+    font-size: 17px;
+    font-family: serif;
+    
+}
+  
+
+  a:hover, a:active {
+    background-color: mediumturquoise;
+  }
+  #div2{
+    margin: auto;
+    width: 60%;
+    border: 3px solid #73AD21;
+    padding: 10px;
+    padding-left: 400px;
+  }
