@@ -11,7 +11,7 @@ iframe{
         /* margin-left: 190px; */
     }
 
-    body {font-family: Verdana, sans-serif; font-size:0.8em;background-color: #f1f1f1;}
+body {font-family: Verdana, sans-serif; font-size:0.8em;background-color: #f1f1f1;}
 
 figure{border:1px solid rgb(0, 0, 0); margin:5px; padding:8px;}
 
@@ -31,7 +31,15 @@ nav
 
 nav ul li {display:inline; margin:5px;}
 
-header{height: 400px;background-size:100% ;}
+header{
+    background: url("http://upload.wikimedia.org/wikipedia/commons/8/86/Jefferson_Park_in_Chicago.JPG") no-repeat top center fixed;
+    height: 430px;
+    background-size: 100% 90% ;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+
+}
 header{ padding:1px;background-color: "#455a64";}
 
 article{margin:5px; padding:8px;}
@@ -93,6 +101,21 @@ a.cv:hover, a.cv:active {
     height: 50px;
     width: 50px;
 }
+div.btech,div.highersecondary{
+transition: width .3s;
+}
+.btech:hover, .highersecondary:hover{
+    
+    height:130px;
+}
+
+div.btech{
+transition: width .3s;
+}
+.btech:hover{
+    
+    height:210px;
+}
 
 .html {width: 90%; background-color: rgb(64, 224, 216);}
 .css {width: 70%; background-color: rgb(64, 224, 216);}
@@ -111,12 +134,12 @@ a.cv:hover, a.cv:active {
            <center> 
             <h1 style ="font-size:50px;color: white;">NISHIT GUPTA</h1>
     <b> <a href="resume.docx" class="cv">Find my CV</a></b>
-            <h1 style ="font-size:20px;color:black;">    @Cognizant Technology Solutions</h1>
+            <!-- <h1 style ="font-size:20px;color:black;">    @Cognizant Technology Solutions</h1> -->
             </center>
             </pre>
         </header>
 
-        <nav>
+        <nav class="sticky-top">
             <ul>
                 <li><a href="#home">HOME</a></li>
                 <li><a href="#about">ABOUT</a></li>
@@ -215,7 +238,7 @@ I like listening music, playing sports.
                 </div>
             </li>
             <li>
-                <div class="highersecondary" style="background-color:whitesmoke; padding: 30px;">
+                <div class="btech" style="background-color:whitesmoke; padding: 30px;">
                     <h3>Higher Secondary-State Board </h3>
                     <span>2013 - 2015</span>
                     <p>Sri Chaitanya Jr. College,Hyderabad</p>
@@ -231,7 +254,7 @@ I like listening music, playing sports.
             <!-- <p>under construction.</p> -->
             <li>
                 
-                <div class="btech" style="background-color:whitesmoke; padding: 30px;">
+                <div class="highersecondary" style="background-color:whitesmoke; padding: 30px;">
                     <h3>Cane management system (HTML, java, JSP)</h3>
                     <span>worked as frontend developer for the website.</span>
                    
@@ -271,7 +294,7 @@ I like listening music, playing sports.
 
                     </td>
                     <td>
-                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d243647.31698349342!2d78.26795745698291!3d17.41229980019287!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb99daeaebd2c7%3A0xae93b78392bafbc2!2sHyderabad%2C+Telangana!5e0!3m2!1sen!2sin!4v1548245303559" width="300" height="200" frameborder="0" style="border:0" allowfullscreen>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d243647.31698349342!2d78.26795745698291!3d17.41229980019287!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb99daeaebd2c7%3A0xae93b78392bafbc2!2sHyderabad%2C+Telangana!5e0!3m2!1sen!2sin!4v1548245303559" width="300" height="200" frameborder="0" style="border:0" allowfullscreen>
                             
                             </iframe>
                     </td>
